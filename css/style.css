@@ -38,6 +38,7 @@ body {
     background-size: cover; /* растягиваем фон на всю площадь блока */
     width: 300px;
     height: 500px;
+    margin: 20px;
 }
 
 .col-8 {
@@ -49,7 +50,7 @@ body {
 }
 
 .nav_logo {
-    background: url(../images/smaspx.png) center center;
+    background: url(../images/smaspx.png) no-repeat center center;
     background-size: cover; /* растягиваем фон на всю площадь блока */
     width: 50px;
     height: 50px;
@@ -66,12 +67,32 @@ body {
 }
 
 .img_size {
-    max-width: 100%; /* максимальная ширина для изображения */
-    height: auto; /* автоматическая высота изображения для сохранения пропорций */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .title_photo {
-    font-size: 24px; /* размер текста заголовка изображения */
-    font-weight: bold; /* жирный шрифт для заголовка */
-    margin-bottom: 10px; /* отступ снизу заголовка */
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+#myButton {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 15px; 
+    border: 2px solid #4CAF50; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin: 20px; 
+}
+
+#myButton:hover {
+    background-color: #45a049; 
+}
+
+#demo img {
+    width: 100%; 
+    height: auto; 
+    margin: 20px; 
+
 }
